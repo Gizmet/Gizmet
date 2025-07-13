@@ -28,6 +28,39 @@ class Gizmet:
 
 ## 🚀 Featured Projects
 
+### 🕵️‍♂️ GitHub Stats Heatmap
+**Your GitHub activity, visualized — hacker style.**
+
+A beautiful terminal-based GitHub contribution heatmap viewer with zero configuration required. Features include plugin system, global leaderboards, themes, and real-time analytics.
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://python.org)
+[![Rich](https://img.shields.io/badge/Rich-Terminal-green?style=for-the-badge)](https://github.com/Textualize/rich)
+[![Plugin](https://img.shields.io/badge/Plugin-System-purple?style=for-the-badge)](https://github.com/Gizmet/github-contribution-heatmap-viewer)
+[![GitHub](https://img.shields.io/badge/GitHub-API-black?style=for-the-badge&logo=github)](https://github.com)
+
+```bash
+# Install globally
+pipx install ghstats
+
+# View your heatmap
+ghstats yourusername
+
+# With global leaderboard
+ghstats username --global-leaderboard --token YOUR_TOKEN
+```
+
+**Key Features:**
+- 🌟 **Zero Config** - Works immediately with any public GitHub profile
+- 🔌 **Plugin System** - Extensible with global leaderboards and more
+- 🎨 **Multiple Themes** - GitHub, dark, light, matrix, cyberpunk
+- 📊 **Rich Analytics** - Streaks, trends, patterns, sparklines
+- 🔄 **Compare Mode** - Side-by-side user comparison
+- ⚡ **Live Refresh** - Real-time updates
+
+[**View Project →**](https://github.com/Gizmet/github-contribution-heatmap-viewer)
+
+---
+
 <a href="https://github.com/Gizmet/nullpower">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Gizmet&repo=nullpower&theme=merko&hide_border=true" />
 </a>
