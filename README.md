@@ -79,6 +79,9 @@ gh-stats-heatmap username --global-leaderboard --token YOUR_TOKEN
 [**View Project →**](https://github.com/Gizmet/github-contribution-heatmap-viewer)
 
 ---
+<a href="https://github.com/Gizmet/github-contribution-heatmap-viewer">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Gizmet&repo=github-contribution-heatmap-viewer&theme=merko&hide_border=true" />
+</a>
 
 <a href="https://github.com/Gizmet/nullpower">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Gizmet&repo=nullpower&theme=merko&hide_border=true" />
