@@ -28,34 +28,53 @@ class Gizmet:
 
 ## 🚀 Featured Projects
 
-### 🕵️‍♂️ GitHub Stats Heatmap
+### 🕵️‍♂️ GitHub Stats Heatmap Viewer
 **Your GitHub activity, visualized — hacker style.**
 
-A beautiful terminal-based GitHub contribution heatmap viewer with zero configuration required. Features include plugin system, global leaderboards, themes, and real-time analytics.
+A powerful terminal-based tool that displays your GitHub contribution history as beautiful heatmaps directly in your terminal! Now available on PyPI and Homebrew.
 
+[![PyPI](https://img.shields.io/pypi/v/gh-stats-heatmap?style=for-the-badge)](https://pypi.org/project/gh-stats-heatmap/)
+[![License](https://img.shields.io/github/license/Gizmet/github-contribution-heatmap-viewer?style=for-the-badge)](https://github.com/Gizmet/github-contribution-heatmap-viewer/blob/main/LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://python.org)
 [![Rich](https://img.shields.io/badge/Rich-Terminal-green?style=for-the-badge)](https://github.com/Textualize/rich)
 [![Plugin](https://img.shields.io/badge/Plugin-System-purple?style=for-the-badge)](https://github.com/Gizmet/github-contribution-heatmap-viewer)
-[![GitHub](https://img.shields.io/badge/GitHub-API-black?style=for-the-badge&logo=github)](https://github.com)
 
 ```bash
-# Install globally
-pipx install ghstats
+# Install with pipx (recommended)
+pipx install gh-stats-heatmap
 
-# View your heatmap
-ghstats yourusername
+# Or with pip
+pip install gh-stats-heatmap
+
+# Or with Homebrew
+brew install gizmet/tap/gh-stats-heatmap
+```
+
+**Quick Start:**
+```bash
+# View your GitHub stats
+gh-stats-heatmap
+
+# With live refresh mode
+gh-stats-heatmap --live
+
+# Custom theme
+gh-stats-heatmap --theme github-dark
 
 # With global leaderboard
-ghstats username --global-leaderboard --token YOUR_TOKEN
+gh-stats-heatmap username --global-leaderboard --token YOUR_TOKEN
 ```
 
 **Key Features:**
 - 🌟 **Zero Config** - Works immediately with any public GitHub profile
-- 🔌 **Plugin System** - Extensible with global leaderboards and more
-- 🎨 **Multiple Themes** - GitHub, dark, light, matrix, cyberpunk
+- 🔄 **Live Refresh Mode** - Real-time updates of your contribution data
+- 🎨 **Multiple Themes** - GitHub, dark, light, matrix, cyberpunk, and more
 - 📊 **Rich Analytics** - Streaks, trends, patterns, sparklines
+- 🔌 **Plugin System** - Extensible with global leaderboards and more
 - 🔄 **Compare Mode** - Side-by-side user comparison
-- ⚡ **Live Refresh** - Real-time updates
+- ⚡ **Fast & Lightweight** - No heavy dependencies, pure Python performance
+- 📱 **Cross-Platform** - Works on macOS, Linux, and Windows
+- 🎯 **Multiple Views** - Yearly, monthly, and weekly contribution breakdowns
 
 [**View Project →**](https://github.com/Gizmet/github-contribution-heatmap-viewer)
 
@@ -73,3 +92,5 @@ ghstats username --global-leaderboard --token YOUR_TOKEN
 
 <!-- Activity Graph -->
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Gizmet&theme=github-compact&hide_border=true&color=2BBC8A" width="100%">
+
+---
